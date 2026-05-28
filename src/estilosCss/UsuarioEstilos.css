@@ -1,0 +1,48 @@
+div{
+    border: 1px solid black;
+    background-color:  antiquewhite;
+    padding: 10px;
+}
+
+.foto-imagen{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+p{
+    color: blue;
+    font-size: 30 px;
+    text-shadow: 4px 4px 4px black;
+}
+span{
+    color: blueviolet;
+}
+
+.contenedor-principal {
+    display: flex;
+    background-color: antiquewhite;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.usuario-card {
+    flex: 1;
+    padding: 20px;
+    border-right: 3px solid black;
+}
+
+.productos-tabla {
+    flex: 2;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
